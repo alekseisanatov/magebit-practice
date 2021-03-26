@@ -1,0 +1,6 @@
+.intro {
+    min-height: 680px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+    display: grid;
+    grid-template-columns: minmax(680px, max-content) 1fr;
+}

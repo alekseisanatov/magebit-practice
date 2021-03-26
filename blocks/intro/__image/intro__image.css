@@ -1,0 +1,6 @@
+.intro__image {
+    background-image: url("../../../images/main-intro.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
