@@ -1,0 +1,12 @@
+.intro__label-link {
+    color: #131821;
+    transition: color .5s;
+}
+
+.intro__label-link:hover {
+    color: #4066A5;
+}
+
+.intro__label-link:visited {
+    color: #233759;
+}

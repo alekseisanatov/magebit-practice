@@ -12,27 +12,46 @@
                 <img src="./images/logo_pineapple.svg" alt="pineapple" class="intro__logo">
                 <nav class="intro__nav">
                     <ul class="intro__links">
-                        <li><a href="#" class="intro__link">About</a></li>
-                        <li><a href="#" class="intro__link">How it works</a></li>
-                        <li><a href="#" class="intro__link">Contact</a></li>
+                        <li class="intro__link-list"><a href="#" class="intro__link">About</a></li>
+                        <li class="intro__link-list"><a href="#" class="intro__link">How it works</a></li>
+                        <li class="intro__link-list"><a href="#" class="intro__link">Contact</a></li>
                     </ul>
                 </nav>
             </div>
-            <h1 class="intro__title">Subscribe to newsletter</h1>
-            <p class="intro__subtitle">Subscribe to our newsletter and get 10% discount on pineapple glasses.</p>
-            <div class="intro__form"></div>
-            <div class="intro__line"></div>
-            <div class="intro__social">
-                <ul class="intro__icons">
-                    <li><a href="#"><img src="./images/ic_facebook.svg" alt="Facebook" class="intro__icon"></a></li>
-                    <li><a href="#"><img src="./images/ic%20instagram.svg" alt="Instagram" class="intro__icon"></a></li>
-                    <li><a href="#"><img src="./images/ic_twitter.svg" alt="Twitter" class="intro__icon"></a></li>
-                    <li><a href="#"><img src="./images/ic%20youtube.svg" alt="Youtube" class="intro__icon"></a></li>
-                </ul>
+            <div class="intro__main">
+                <h1 class="intro__title">Subscribe to newsletter</h1>
+                <p class="intro__subtitle">Subscribe to our newsletter and get 10% discount on pineapple glasses.</p>
+                <form class="intro__form" action="#" method="POST" name="intro-form" novalidate>
+                    <fieldset class="intro__form_fieldset_text">
+                        <input type="email" class="intro__input" placeholder="Type your email address here…" required>
+                        <button class="intro__input-button" type="submit"><img src="./images/ic_arrow.svg" alt="arrow"></button>
+                        <span class="intro__form_error"></span>
+                    </fieldset>
+                    <fieldset class="intro__form_fieldset_checkbox">
+                        <label class="intro__label_type_checkbox">
+                            <input id="intro-checkbox" name="terms" type="checkbox" class="input__checkbox" required>
+                            <span class="intro__checkbox-true"></span>
+                            <span class="intro__label-text">I agree to <a class="intro__label-link" href="#">terms of service</a></span>
+                        </label>
+                    </fieldset>
+                </form>
             </div>
+            <div class="subscribe">
+                <img src="./images/subscribe.svg" alt="Title" class="subscribe__image">
+                <h2 class="subscribe__title">Thanks for subscribing!</h2>
+                <p class="subscribe__subtitle">You have successfully subscribed to our email listing. Check your email for the discount code.</p>
+            </div>
+            <div class="intro__line"></div>
+                <div class="intro__social">
+                    <a href="#" class="intro__link-icon intro__link-icon-facebook"></a>
+                    <a href="#" class="intro__link-icon intro__link-icon-instagram"></a>
+                    <a href="#" class="intro__link-icon intro__link-icon-twitter"></a>
+                    <a href="#" class="intro__link-icon intro__link-icon-youtube"></a>
+                </div>
         </div>
         <div class="intro__image"></div>
     </section>
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/validate.js"></script>
 </body>
 </html>

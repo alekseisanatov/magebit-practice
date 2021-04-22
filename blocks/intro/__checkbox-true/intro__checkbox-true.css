@@ -1,0 +1,22 @@
+.intro__checkbox-true {
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #E3E3E4;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.intro__checkbox-true:hover {
+    border: 1px solid #2F4A80;
+}
+
+.intro__checkbox-true_active {
+    background-color: #4066A5;
+    background-image: url("../../../images/ic_checkmark.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}

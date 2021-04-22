@@ -4,3 +4,15 @@
     display: grid;
     grid-template-columns: minmax(680px, max-content) 1fr;
 }
+
+@media screen and (max-width: 1440px) {
+    .intro {
+        min-height: 900px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        grid-template-columns: minmax(300px, 450px) 1fr;
+    }
+}

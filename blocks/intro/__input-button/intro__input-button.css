@@ -1,0 +1,19 @@
+.intro__input-button {
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    right: 35px;
+    top: 35px;
+    transition: all .5s;
+}
+
+.intro__input-button:focus {
+    outline: 0;
+}
+
+.intro__input-button:hover {
+    transform: translateX(5px);
+    opacity: 0.7;
+}

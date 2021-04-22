@@ -1,0 +1,8 @@
+.intro__form_error_active {
+    display: block;
+    color: #CC0000;
+    font-size: 15px;
+    line-height: 16px;
+    margin-top: -20px;
+    margin-left: 20px;
+}

@@ -4,6 +4,10 @@
     line-height: 26px;
     color: #6A707B;
     text-decoration: none;
-    margin-right: 15px;
+    transition: opacity .5s;
+}
+
+.intro__link:hover {
+    opacity: 0.7;
 }
 
