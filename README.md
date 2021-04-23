@@ -9,3 +9,5 @@
 ### Following project goals : 
 * Add database with followed accounts
 * Add registration
+
+[Project Link](https://alekseisanatov.github.io/magebit-practice/)
