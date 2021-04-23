@@ -9,8 +9,22 @@
 
 @media screen and (max-width: 576px){
     .intro__form_error_active {
+        min-width: 350px;
         font-size: 13px;
-        margin-left: -15px;
-        margin-top: -30px;
+        margin-left: 0;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .intro__form_error_active {
+        margin-top: -95px;
+        min-width: 300px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro__form_error_active {
+        min-width: 200px;
     }
 }
