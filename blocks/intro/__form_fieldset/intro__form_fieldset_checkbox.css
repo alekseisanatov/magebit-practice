@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 420px) {
     .intro__form_fieldset_checkbox {
-        margin-top: 80px;
+        margin-top: 20px;
         padding: 0;
         margin-left: -20px;
     }

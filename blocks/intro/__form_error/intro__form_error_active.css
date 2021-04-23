@@ -18,7 +18,8 @@
 
 @media screen and (max-width: 420px) {
     .intro__form_error_active {
-        margin-top: -95px;
+        position: absolute;
+        top: -10px;
         min-width: 300px;
     }
 }
