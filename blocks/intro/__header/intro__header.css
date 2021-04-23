@@ -4,3 +4,12 @@
     align-items: flex-end;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 576px){
+    .intro__header {
+        margin: 0;
+        padding: 20px;
+        background-color: #fff;
+        align-items: center;
+    }
+}

@@ -5,3 +5,17 @@
     line-height: 28px;
     color: #6A707B;
 }
+
+@media screen and (max-width: 576px) {
+    .intro__subtitle {
+        margin: 20px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .intro__subtitle {
+        font-size: 14px;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+}

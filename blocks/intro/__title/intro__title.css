@@ -11,3 +11,25 @@
         margin: 130px 0 0 36px;
     }
 }
+
+@media screen and (max-width: 576px){
+    .intro__title {
+        margin: 0;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .intro__title {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 34px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .intro__title {
+        font-size: 23px;
+    }
+}

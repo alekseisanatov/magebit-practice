@@ -11,3 +11,10 @@
     opacity: 0.7;
 }
 
+@media screen and (max-width: 576px) {
+    .intro__link {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+

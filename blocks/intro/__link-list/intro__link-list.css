@@ -5,3 +5,9 @@
 .intro__link-list:last-child {
     margin-right: 0;
 }
+
+@media screen and (max-width: 576px){
+    .intro__link-list {
+        margin-right: 20px;
+    }
+}

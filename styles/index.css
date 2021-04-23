@@ -26,6 +26,9 @@
 @import url('../blocks/intro/__form_error/intro__form_error.css');
 @import url('../blocks/intro/__form_error/intro__form_error_active.css');
 @import url('../blocks/intro/__label/_type/intro__label_type_checkbox.css');
+@import url('../blocks/intro/__main-block/intro__main-block.css');
+@import url('../blocks/intro/__logo/intro__logo.css');
+@import url('../blocks/intro/__label-text/intro__label-text.css');
 
 @import url('../blocks/subscribe/subscribe.css');
 @import url('../blocks/subscribe/__title/subscribe__title.css');

@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+    .intro__main-block {
+        background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+        width: calc(100% - 40px *2);
+        padding: 20px;
+        margin: 150px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .intro__main-block {
+        width: calc(100% - 40px *2);
+    }
+}

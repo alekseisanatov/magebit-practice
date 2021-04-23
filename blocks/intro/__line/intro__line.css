@@ -4,3 +4,22 @@
     height: 1px;
     width: 400px;
 }
+
+@media screen and (max-width: 576px){
+    .intro__line {
+        width: 300px;
+        margin: 30px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .intro__line {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .intro__line {
+        width: 200px;
+    }
+}

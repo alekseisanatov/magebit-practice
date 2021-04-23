@@ -28,3 +28,47 @@
     box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
     outline: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .intro__input {
+        min-width: 550px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__input {
+        min-width: 450px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .intro__input {
+        min-width: 250px;
+        padding: 18px 49px 18px 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .intro__input {
+        min-width: 300px;
+        padding: 18px 49px 18px 18px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .intro__input {
+        position: relative;
+        min-width: 228px;
+        margin-left: -4px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro__input {
+        min-width: 180px;
+        padding: 18px 30px 18px 18px;
+    }
+    .intro__input::placeholder {
+        font-size: 12px;
+    }
+}
