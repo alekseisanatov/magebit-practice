@@ -6,3 +6,10 @@
     line-height: 28px;
     color: #6A707B;
 }
+
+@media screen and (max-width: 420px){
+    .subscribe__subtitle {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
