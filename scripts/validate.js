@@ -13,7 +13,7 @@ function showError() {
     if(!inputElement.validity.typeMismatch) {
         errorElement.textContent = 'Email address is required';
     }
-    if(inputElement.value.slice(-2) === 'co') {
+    if(inputElement.value.slice(-3) === '.co') {
         errorElement.textContent = 'We are not accepting subscriptions from Colombia emails';
     }
     if(!checkboxElement.validity.valid) {
